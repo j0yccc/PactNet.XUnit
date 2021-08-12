@@ -1,6 +1,6 @@
-I, [2021-08-10T23:11:00.484318 #2457]  INFO -- : Cleared interactions for example ""
-I, [2021-08-10T23:11:00.573580 #2457]  INFO -- : Registered expected interaction GET /clients/1
-D, [2021-08-10T23:11:00.573775 #2457] DEBUG -- : {
+I, [2021-08-12T22:04:22.827158 #1724]  INFO -- : Cleared interactions for example ""
+I, [2021-08-12T22:04:22.900945 #1724]  INFO -- : Registered expected interaction GET /clients/1
+D, [2021-08-12T22:04:22.901173 #1724] DEBUG -- : {
   "description": "A GET request to retrieve client details",
   "providerState": "Client Details for id '1'",
   "request": {
@@ -24,8 +24,8 @@ D, [2021-08-10T23:11:00.573775 #2457] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-08-10T23:11:00.578466 #2457]  INFO -- : Received request GET /clients/1
-D, [2021-08-10T23:11:00.578568 #2457] DEBUG -- : {
+I, [2021-08-12T22:04:22.905681 #1724]  INFO -- : Received request GET /clients/1
+D, [2021-08-12T22:04:22.905802 #1724] DEBUG -- : {
   "path": "/clients/1",
   "query": "",
   "method": "get",
@@ -35,8 +35,8 @@ D, [2021-08-10T23:11:00.578568 #2457] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-08-10T23:11:00.578952 #2457]  INFO -- : Found matching response for GET /clients/1
-D, [2021-08-10T23:11:00.579072 #2457] DEBUG -- : {
+I, [2021-08-12T22:04:22.906077 #1724]  INFO -- : Found matching response for GET /clients/1
+D, [2021-08-12T22:04:22.906148 #1724] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -48,6 +48,6 @@ D, [2021-08-10T23:11:00.579072 #2457] DEBUG -- : {
     "id": 1
   }
 }
-I, [2021-08-10T23:11:00.580553 #2457]  INFO -- : Verifying - interactions matched for example ""
-I, [2021-08-10T23:11:00.594528 #2457]  INFO -- : Writing pact for clients to /Users/joyce/source/repos/DotNet/PactNet.XUnit/pacts/consumer-clients.json
-I, [2021-08-10T23:11:00.597961 #2457]  INFO -- : Cleared interactions for example ""
+I, [2021-08-12T22:04:22.908084 #1724]  INFO -- : Verifying - interactions matched for example ""
+I, [2021-08-12T22:04:22.921847 #1724]  INFO -- : Writing pact for clients to /Users/joyce/source/repos/DotNet/PactNet.XUnit/pacts/consumer-clients.json
+I, [2021-08-12T22:04:22.925183 #1724]  INFO -- : Cleared interactions for example ""

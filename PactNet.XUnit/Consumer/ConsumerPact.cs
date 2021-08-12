@@ -16,8 +16,8 @@ namespace PactNet.XUnit.Consumer
             PactConfig pactConfig = new PactConfig
             {
                 SpecificationVersion = "2.0.0",
-                PactDir = @"/Users/joyce/source/repos/DotNet/PactNet.XUnit/pacts",
-                LogDir = @"/Users/joyce/source/repos/DotNet/PactNet.XUnit/logs"
+                PactDir = @"/Users/<user>/source/repos/DotNet/PactNet.XUnit/pacts",
+                LogDir = @"/Users/<user>/source/repos/DotNet/PactNet.XUnit/logs"
             };
 
             PactBuilder = new PactBuilder(pactConfig);
